@@ -1,9 +1,9 @@
 ﻿using System;
-namespace xadrez_console.tabuleiro
+namespace tabuleiro
 {
-    public class TabuleiroException
+    class TabuleiroException : Exception
     {
-        public TabuleiroException()
+        public TabuleiroException(string msg) : base(msg)
         {
         }
     }

@@ -1,10 +1,14 @@
 ﻿using System;
-namespace xadrez_console.Tabuleiro
+namespace tabuleiro
 {
-    public class Cor
+    enum Cor
     {
-        public Cor()
-        {
-        }
+        Branca,
+        Preta,
+        Vermelha,
+        Azul,
+        Verde,
+        Amarela
+
     }
 }

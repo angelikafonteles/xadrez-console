@@ -1,10 +1,15 @@
 ﻿using System;
-namespace xadrez_console.xadrez
+using tabuleiro;
+namespace xadrez
 {
-    public class Rei
+    class Rei : Peca
     {
-        public Rei()
+        public Rei(Tabuleiro tab, Cor cor) : base(tab, cor) {
+        }
+
+        public override string ToString()
         {
+            return "R";
         }
     }
 }
